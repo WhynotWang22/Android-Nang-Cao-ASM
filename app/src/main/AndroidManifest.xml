@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/millenial"
+        android:label="Hỗ Trợ Học Tập"
+        android:roundIcon="@mipmap/millenial"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HOtro">
+        <activity
+            android:name=".Modau">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Facebooklogin"
+            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden" />
+        <activity
+            android:name=".Tintuc2"
+            android:exported="false" />
+        <activity
+            android:name=".Tintuc"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".GoogleMap"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateData"
+            android:exported="false" />
+        <activity
+            android:name=".GetData3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>

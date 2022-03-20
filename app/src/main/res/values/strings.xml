@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HOtro</string>
+    <string name="map_key" translatable="false">AIzaSyDYZRS-S1bQlyxC99etay2W-tzdK_3_WYk</string>
+    <string name="facebook_app_id">289613626314229</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".UpdateData">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:hint="Ma mon"
+        android:id="@+id/mamon"
+        android:background="@drawable/edittext_background"
+        android:padding="10sp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:hint="Lop"
+        android:id="@+id/lop"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_background"
+        android:padding="10sp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:hint="ngay thi"
+        android:id="@+id/ngaythi"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_background"
+        android:padding="10sp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:hint="Ky hoc"
+        android:id="@+id/kyhoc"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_background"
+        android:padding="10sp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:hint="Lich hoc"
+        android:id="@+id/lichhoc"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_background"
+        android:padding="10sp"
+        android:singleLine="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="Update"
+        android:id="@+id/btn_update"
+        android:textSize="16dp"
+        android:backgroundTint="#03A9F4"/>
+
+</LinearLayout>
